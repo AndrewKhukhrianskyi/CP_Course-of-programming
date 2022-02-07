@@ -1,0 +1,19 @@
+'''
+def domashka ( bot ): 
+    if bot == 1:
+        result = centimetr / 2.54
+    elif bot== 2:
+        result = centimetr / 160934
+    elif bot == 3:
+        result = centimetr / 185200
+    elif bot == 4:
+        result = centimetr / 10
+    else:
+        result ='Error'
+    return(result)
+centimetr = float(input(' введи число если не бот: '))
+bot = int(input('Если не бот, то выбери что-то!\n1 - Дюймы\n2 - мили\n3 - морские мили\n4 - милиметры\nВвод(ты бот): '))
+print(f'Результат: {domashka ( bot )}') 
+'''
+#на последок напишу калькулятор в ОДНУ строчку!!!!!!!Я просто дальше не знаю. Хотя с водой примерно понимаю. Там надо импорт рандом и т.д(((
+while True: print(eval(input('Пиши сюда действие(+,-,/,*)')))
