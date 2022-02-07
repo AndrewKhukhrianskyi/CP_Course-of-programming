@@ -31,12 +31,17 @@ def odd_words(word):
 
     print(odd_word)
     
+
 # Classwork 31.01.22
-#def f(a = 1, b):
-#    print(a + b)
+def f(a, b = 2):
+    print(a + b)
 
-def more_var(*args):
-    for arg in args:
-        print(arg)
+def pillar_distance(num_pill, dist, width):
+    result = 0
+    for pillar in range(num_pill):
+        result += (dist * 100) - width
+        
+    print(result)
 
-more_var(1,2,3,4,5,6,1,2,3,4,5,6)
+pillar_distance(5, 10, 50)
+        
