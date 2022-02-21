@@ -24,7 +24,7 @@ def triangles(**triangle_pars):
 
 triangles(name = None, angle_type = None,
           angle = 90, side1 = 5, side2 = 12,
-          side = 13, perimeter = None)
+          side3 = 13, perimeter = None)
 
 # Task 2 - Bug fix
 def vowels_counter(sentence): 
